@@ -1,3 +1,9 @@
 :root {
-  --color-bg: #69F7BE;
+  --bg: black;
+  --text: white;
+}
+
+html, body {
+  background-color: var(--bg);
+  color: var(--text);
 }
