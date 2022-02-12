@@ -2,14 +2,115 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>☂️ fm</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
+    <title>Umbrella FM</title>
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/gif"
+      href="https://cdn.glitch.global/d0348cf0-2764-43de-96b5-8d953d48957d/umbrella-ico.gif?v=1644670553534"
+    />
     <meta name="Description" content="Put your description here." />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
   </head>
 
-  <body>
-  ☂️
-  
-  </body>
+   <body>
+     
+     <div class="desktop">
+    
+    <div class="uplayer">
+      <div class="utitle title">
+        <div id="artist">☂.fm</div>
+        <div id="dragplayer"></div>
+        <div onmousedown="closesound()" class="close" data="uplayer">◱</div>
+
+      </div>
+      
+      <div class="ualbumcontainer">
+        <div class="uinfo">
+          <div id="track">
+            
+          </div>
+                    <div id="desc">
+
+          </div>
+        </div>
+        
+        <div class="ualbumart">
+          <div class="albumartscreen">
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      
+      <div class="uscan">
+        <div class="uscanmarks"><div id="sval">20</div><div id="smax">50</div></div>
+        <div class="uscaninner">
+                    <div class="uscantrack">
+  <input oninput="setScanner()" type="range" id="scan" min="0" value="0" max="0">
+</div>
+          
+        </div>
+      </div>
+      
+      <div class="ucontrols">
+        <div class="ucont">
+        <div onmousedown="clicksound()" onclick="scanDec()" class="ubutton" id="back"><div class="ubuttoninner"><img src="https://cdn.glitch.global/d0348cf0-2764-43de-96b5-8d953d48957d/forward.gif?v=1644273169715"></div></div>
+        <div onmousedown="clicksound()" class="ubutton" id="play"><div class="ubuttoninner"><img id="playbutton" src="https://cdn.glitch.global/d0348cf0-2764-43de-96b5-8d953d48957d/play.gif?v=1644272901939"></div></div>
+        <div onmousedown="clicksound()" onclick="scanIncr()" class="ubutton" id="forward"><div class="ubuttoninner"><img src="https://cdn.glitch.global/d0348cf0-2764-43de-96b5-8d953d48957d/forward.gif?v=1644273169715"></div></div>
+
+    </div>
+        <div class="uvol">
+          
+    
+               <div class="ubutton" id="sound"><div class="ubuttoninner"><img id="soundicon" src="https://cdn.glitch.global/d0348cf0-2764-43de-96b5-8d953d48957d/sound2.gif?v=1644276495827"></div></div>
+          
+          <div class="utrack">
+  <input oninput="changeVol()" type="range" id="volume" name="volume" min="0" value="5" max="10">
+</div>
+         </div>
+      </div>
+    </div>
+     
+     <div class="unotes minimized">
+  <div class="utitle title">
+    <div>◫ Notes</div>
+    <div id="dragnotes"></div>
+    <div onmousedown="closesound()" class="close" data="unotes">◱</div>
+
+  </div>
+       <p id="note" contenteditable="true" onkeydown="clicksound()" onkeyup="saveNote()" spellcheck="false">
+I will use cookies to save your writing
+       </p>
+</div>
+         
+     </div>
+    
+    <footer>
+      <div class="tasks">
+      <div onmousedown="clicksound()">☁</div>
+      <div onmousedown="clicksound()" data="uplayer">☂.fm</div>
+      <div onmousedown="clicksound()" data="unotes">◫ Notes</div>
+        </div>
+      <div>
+        
+      <div class="control">
+        <div>
+          
+       
+        <span id="hour">00</span><span class="blink">:</span><span id="minute">00</span>
+           </div>
+        </div>
+         </div>
+      
+    </footer>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="records.js"></script>
+      <script src="script.js"></script>
+
+</body>
 </html>
