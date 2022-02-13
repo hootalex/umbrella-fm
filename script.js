@@ -10,7 +10,7 @@ scanner.max = trackCount
 
 
 function setPlayer(num) {
-    document.querySelector("#artist").innerText = "☂ " + records[num].name
+    document.querySelector("#artist").innerHTML = "☂" + "&nbsp;" + records[num].name
     document.querySelector("#track").innerText = records[num].trak
     document.querySelector("#desc").innerHTML = "<marquee>" + records[num].desc + "</marquee>"
 
