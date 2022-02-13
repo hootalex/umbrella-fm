@@ -4,7 +4,7 @@ let play = false
 let trackCount = records.length - 1
 let trackLink = records[0].link
 let kind = "rain"
-let note = ""
+// let note = ""
 
 scanner.max = trackCount
 
@@ -43,13 +43,13 @@ function clicksound() {
 
 //notes with absolute simplest cookie implementation
 
-if (document.cookie) {
-  document.querySelector("#note").innerHTML = decodeURIComponent(document.cookie.substring(5))
-}
+// if (document.cookie) {
+//   document.querySelector("#note").innerHTML = decodeURIComponent(document.cookie.substring(5))
+// }
 
-function saveNote() {
-  document.cookie = "note="+encodeURIComponent(document.querySelector("#note").innerHTML);
-}
+// function saveNote() {
+//   document.cookie = "note="+encodeURIComponent(document.querySelector("#note").innerHTML);
+// }
 
 //clicky sounds
 
