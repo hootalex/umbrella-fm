@@ -89,6 +89,29 @@
          A hootalex project
        </p>
 </div>
+       
+       <div class="sleeptimer minimized">
+  <div class="utitle title">
+    <div>◴ Sleep Timer</div>
+    <div id=""></div>
+    <div onmousedown="closesound()" class="close" data="sleeptimer">◱</div>
+  </div>
+         <div class="timer">
+           <div onclick="timerSub()" onmousedown="clicksound()" class="ubutton bsmall" id="minmin">
+             <div class="ubuttoninner innersmall">
+               <p>-</p>
+             </div>
+           </div>
+               <div id="timerdisplay">
+               Unset
+             </div>
+                      <div onclick="timerAdd()" onmousedown="clicksound()" class="ubutton bsmall" id="addmin">
+             <div class="ubuttoninner innersmall">
+               <p>+</p>
+             </div>
+           </div>
+         </div>
+</div>
          
      </div>
     
@@ -100,11 +123,11 @@
         </div>
       <div>
         
-      <div class="control">
-        <div>
+      <div onmousedown="clicksound()" data="sleeptimer" class="control">
+        <div data="sleeptimer">
           
        
-        <span id="hour">00</span><span class="blink">:</span><span id="minute">00</span>
+        <span id="timerstat"></span><span id="hour">00</span><span class="blink">:</span><span id="minute">00</span>
            </div>
         </div>
          </div>

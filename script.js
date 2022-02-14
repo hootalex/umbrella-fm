@@ -4,6 +4,7 @@ let play = false
 let trackCount = records.length - 1
 let trackLink = records[0].link
 let kind = "rain"
+let timer = 0
 // let note = ""
 
 scanner.max = trackCount
@@ -96,6 +97,14 @@ function soundPauseOff() {
       sound.pause();
 }
 
+function soundFadeOut() {
+   document.querySelector(".ualbumart").classList.remove("rain","wave")
+      document.querySelector(".ualbumart").classList.remove("loading")
+  document.querySelector("#play").classList.add("disable")
+      sound.fade(1, 0, 30000);
+      setTimeout(function() {sound.pause(); playButtonSet(); sound.fade(0, 1, 0);   document.querySelector("#play").classList.remove("disable")}, 30000);
+}
+
 function scannerInit() {
   
   document.getElementById("sval").innerText = scanner.value
@@ -115,6 +124,40 @@ function setScanner() {
     
     setNewSound()
 
+}
+
+var updateTimer = setInterval(function() {
+  
+  if (timer <= 0)  {} else {
+  
+    timer = timer - 1
+  console.log("timer run");
+  document.getElementById("timerdisplay").innerText = timer + " mins"
+  
+      if (timer <= 0) {
+    document.getElementById("timerdisplay").innerText = "Unset"
+    document.getElementById("timerstat").innerText = ""
+        soundFadeOut();
+  } }
+}, 60 * 1000); 
+
+function timerAdd() {
+    timer = timer + 5
+  document.getElementById("timerdisplay").innerText = timer + " mins"
+  document.getElementById("timerstat").innerText = "◴ "
+}
+
+function timerSub() {
+  
+  
+    timer = timer - 5
+    document.getElementById("timerdisplay").innerText = timer + " mins"
+    document.getElementById("timerstat").innerText = "◴ "
+  
+    if (timer == 0) {
+    document.getElementById("timerdisplay").innerText = "Unset"
+    document.getElementById("timerstat").innerText = ""
+  }
 }
 
 function scanIncr() {
@@ -214,6 +257,15 @@ document.querySelector(".desktop").addEventListener("click", (e) => {
 
 document.querySelector(".tasks").addEventListener("click", (e) => {
     let cl = e.target.getAttribute("data")
+    // console.log(cl)
+    document.querySelector("." + cl).classList.remove("minimized")
+  document.querySelector("." + cl).classList.remove("windowclose")
+  document.querySelector("." + cl).classList.add("windowopen")
+});
+
+document.querySelector(".control").addEventListener("click", (e) => {
+    let cl = e.target.getAttribute("data")
+    // console.log(cl)
     document.querySelector("." + cl).classList.remove("minimized")
   document.querySelector("." + cl).classList.remove("windowclose")
   document.querySelector("." + cl).classList.add("windowopen")

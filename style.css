@@ -164,6 +164,52 @@ html, body {
   z-index: 15;
 }
 
+#hour, #minute, .blink {
+  pointer-events: none;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.sleeptimer {
+  position: absolute;
+  color: var(--bg);
+  width: 180px;
+  right: 8px;
+  bottom: 48px;
+  background-color: var(--color);
+  box-shadow: var(--windowshadow);
+  padding: 8px;
+  animation: win-open 1s;
+  z-index: 15;
+}
+
+.bsmall {
+  width: 20px!important;
+  height: 20px!important;
+}
+
+.innersmall {
+  height: 13px!important;
+}
+
+#timerdisplay {
+  user-select: none;
+}
+
+.innersmall p {
+  margin: 0;
+    transform: translate(2px, -5px);
+  user-select: none;
+}
+
+.timer {
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 hr {
   opacity: 0;
 }
@@ -493,6 +539,10 @@ box-shadow: inset 0px 0px 0px 4px var(--bg);
   
   .ubuttoninner {
     height: 33px;
+  }
+  
+  .control {
+    pointer-events: none;
   }
   
   #play img {
