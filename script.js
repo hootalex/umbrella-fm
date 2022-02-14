@@ -154,7 +154,8 @@ function timerSub() {
     document.getElementById("timerdisplay").innerText = timer + " mins"
     document.getElementById("timerstat").innerText = "◴ "
   
-    if (timer == 0) {
+    if (timer <= 0) {
+      timer = 0
     document.getElementById("timerdisplay").innerText = "Unset"
     document.getElementById("timerstat").innerText = ""
   }

@@ -164,7 +164,7 @@ html, body {
   z-index: 15;
 }
 
-#hour, #minute, .blink {
+#hour, #minute, .blink, #timerstat {
   pointer-events: none;
 }
 
