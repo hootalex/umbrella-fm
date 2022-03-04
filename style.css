@@ -37,7 +37,7 @@
 
 :root {
   --bg: black;
-  --color: #19a69d;
+  --color: #8e77bd;
   --windowshadow: 2px 0px 0px 0px var(--color), -2px 0px 0px 0px var(--color), 0px -2px 0px 0px var(--color), 0px 2px 0px 0px var(--color), 0px 4px 0px 0px var(--bg), 0px -4px 0px 0px var(--bg), 4px 0px 0px 0px var(--bg), -4px 0px 0px 0px var(--bg), 0px 0px 0px 2px var(--bg);
   --pixelshadow: 2px 0px 0px 0px var(--color), -2px 0px 0px 0px var(--color), 0px -2px 0px 0px var(--color), 0px 2px 0px 0px var(--color);
     --pixelshadowbg: 2px 0px 0px 0px var(--bg), -2px 0px 0px 0px var(--bg), 0px -2px 0px 0px var(--bg), 0px 2px 0px 0px var(--bg);
