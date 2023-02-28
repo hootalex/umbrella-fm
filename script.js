@@ -4,6 +4,7 @@ let play = false
 let trackCount = records.length - 1
 let trackLink = records[0].link
 let kind = "rain"
+let color = "#b67fd5"
 let timer = 0
 // let note = ""
 
@@ -15,6 +16,9 @@ function setPlayer(num) {
     document.querySelector("#track").innerText = records[num].trak
     document.querySelector("#desc").innerHTML = "<marquee>" + records[num].desc + "</marquee>"
 
+  
+    document.querySelector(':root').style.setProperty('--color', records[num].colr);
+  
     trackLink = records[num].link
   
     kind = records[num].kind
