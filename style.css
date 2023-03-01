@@ -286,7 +286,7 @@ background-size: 100%;
 }
 
 .loading {
-    background-image: url('https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/load.gif?v=1644848809957'), url('https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/load3.gif?v=1644849156059'), url('https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/load4.gif?v=1644849354303');
+    background-image: url('https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/loadfast.gif?v=1677641225515'), url('https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/load3.gif?v=1644849156059'), url('https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/load4.gif?v=1644849354303');
 background-repeat: no-repeat;
 background-size: 100%;
 }
