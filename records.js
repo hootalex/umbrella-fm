@@ -27,7 +27,7 @@ const records =  [
     "name": "<a href='https://links.alex.gd'>Alex Tomlinson</a>",
     "trak": "Rainy Day Cafe",
     "desc": "Recorded in 2021 inside a cafe in Edinburgh, Scotland. It's so rare that a cafe has no music playing! Perfect for a field recording.",
-    "kind" : "cafe",
+    "kind" : "rain",
     "colr": "#b85e7e",
     "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/2021.10.28%20-%20Hanover%20Street%20Costa%20Cafe%20Second%20Floor%20Rainy%20Day%20Castle%20Views%20-%20gcvwr3b3np7w_01.mp3?v=1677618987620"
   },
