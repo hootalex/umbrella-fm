@@ -125,14 +125,14 @@ html, body {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url(https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/rainy-3.gif?v=1680885408417);
+  background: url(https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/rainy-3.gif?v=1680887135729);
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
 }
 
 .show {
-  opacity: .5!important;
+  opacity: .7!important;
 }
 
 #rainscreen {
