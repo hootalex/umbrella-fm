@@ -83,6 +83,8 @@ function soundLoadnPlay() {
   sound.play();
   sound.once('play', function(){
     
+    document.querySelector("#rainbg").classList.add("show")
+    
     if (kind == "rain") {
     
   document.querySelector(".ualbumart").classList.add("rain")
@@ -97,6 +99,7 @@ function soundLoadnPlay() {
 function soundPauseOff() {
    document.querySelector(".ualbumart").classList.remove("rain","wave")
       document.querySelector(".ualbumart").classList.remove("loading")
+  document.querySelector("#rainbg").classList.remove("show")
       play = false
       sound.pause();
 }
