@@ -16,7 +16,7 @@ const records =  [
     "link" : "https://cdn.glitch.global/d0348cf0-2764-43de-96b5-8d953d48957d/BBCNigelThunderstorm1989.m4a?v=1644576318354"
   },
        {
-    "name": "<a href='https://links.alex.gd'>Alex Tomlinson</a>",
+    "name": "Chris Tanner",
     "trak": "Heavy Rain Paris Apartment",
     "desc": "Recorded in December 2021 inside a Parisian apartment in the evening.",
     "kind" : "rain",
@@ -24,7 +24,7 @@ const records =  [
     "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/2021.12.28%20-%20Pouring%20Rain%20in%20Evening%20Apartment%20-%20u09wj8smjfnf_01.mp3?v=1677377349229"
   },
        {
-    "name": "<a href='https://links.alex.gd'>Alex Tomlinson</a>",
+    "name": "Ren Mare",
     "trak": "Rainy Day Cafe",
     "desc": "Recorded in 2021 inside a cafe in Edinburgh, Scotland. It's so rare that a cafe has no music playing! Perfect for a field recording.",
     "kind" : "rain",
@@ -40,9 +40,9 @@ const records =  [
     "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/Rain_In_The%20Studio_looped_01.mp3?v=1677619790528"
   },
        {
-    "name": "<a href='https://links.alex.gd'>Alex Tomlinson</a>",
+    "name": "Ren Mare",
     "trak": "Rain Inside Car",
-    "desc": "Recorded in 2020 while on vacation in Portree, Isle of Skye in Scotland in a rental car.",
+    "desc": "Recorded in 2020 while on in Portree, Isle of Skye in Scotland in a rental car.",
     "kind" : "rain",
     "colr": "#fbaf7f",
     "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/2020%20-%20Portree%20Car%20Rain%20-%20TE_01.m4a?v=1681090647399"
