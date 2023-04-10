@@ -38,5 +38,13 @@ const records =  [
     "kind" : "rain",
     "colr": "#adb8bb",
     "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/Rain_In_The%20Studio_looped_01.mp3?v=1677619790528"
+  },
+       {
+    "name": "<a href='https://links.alex.gd'>Alex Tomlinson</a>",
+    "trak": "Rain Inside Car",
+    "desc": "Recorded in 2020 while on vacation in Portree, Isle of Skye in Scotland in a rental car.",
+    "kind" : "rain",
+    "colr": "#fbaf7f",
+    "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/2020%20-%20Portree%20Car%20Rain%20-%20TE_01.m4a?v=1681090647399"
   }
 ]
