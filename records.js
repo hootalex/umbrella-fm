@@ -46,5 +46,13 @@ const records =  [
     "kind" : "rain",
     "colr": "#fbaf7f",
     "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/2020%20-%20Portree%20Car%20Rain%20-%20TE_01.m4a?v=1681090647399"
+  },
+       {
+    "name": "Rick Jones",
+    "trak": "Chickens Waking Up",
+    "desc": "Recorded early morning on a farm in 2023.",
+    "kind" : "rain",
+    "colr": "#fffa92",
+    "link" : "https://cdn.glitch.global/19a7949e-6c54-4e8b-b924-67de709f344b/Rick%20Jones%20Tues%20at%207AM_01.m4a?v=1684860541148"
   }
 ]
